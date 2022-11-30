@@ -1,0 +1,57 @@
+body{
+    background-color: aqua;
+}
+.ageCalculator{
+    width: 50%;
+    height: 400px;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: blue;
+    border-radius: 100px 10px 100px 10px;
+}
+.mainContainer{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.dateOfBirth{
+    margin-top: 15px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+.date{
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+#submitbtn{
+    margin-top: 10px;
+    padding: 5px 10px 5px 10px;
+    font-size: larger;
+    background-color: rgb(122, 122, 245);
+}
+.date input{
+    height: 40px;
+    border-color: blue;
+}
+.date label{
+    font-size: xx-large;
+}
+#output{
+    margin-top: 90px;
+    font-size: xx-large;
+}
